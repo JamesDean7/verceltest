@@ -1,5 +1,6 @@
 import { useEffect, useLayoutEffect } from "react"
 import styles from '../styles/Home.module.css'
+import mainStyle from '../scss/main.module.scss'
 
 export default function Main() {
 
@@ -7,17 +8,16 @@ export default function Main() {
         let vh = window.innerHeight * 0.01; 
         document.documentElement.style.setProperty('--vh', `${vh}px`);
         console.log(vh);
-        
     })
     
     return (
-        <main className={`${styles.mainwrap} mainwrap`}>
+        <main className={`${styles.main} ${mainStyle.mainwrap}`}>
             <h1 className={styles.title}>
             Welcome to <a href="https://nextjs.org">James Dean.js!</a>
             </h1>
 
             <p className={styles.description}>
-              MB view 100 test
+              MB view 100 test commit 5
             <code className={styles.code}>pages/index.js</code>
             </p>
 
