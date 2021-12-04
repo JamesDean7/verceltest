@@ -3,9 +3,10 @@ import styles from '../styles/Home.module.css'
 
 export default function Main() {
 
-    useLayoutEffect(()=>{
+    useEffect(()=>{
         let vh = window.innerHeight * 0.01; 
         document.documentElement.style.setProperty('--vh', `${vh}px`);
+        console.log(vh);
         
     })
     
