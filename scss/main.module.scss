@@ -1,14 +1,20 @@
+
 .mainwrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height:100vh; 
     height: calc(var(--vh, 1vh) * 100);
     overflow:hidden;
     border:3px solid blue;
-}
+  }
   
-@media all and (min-width:1024px) {
+  @media all and (min-width:1024px) {
     .mainwrap {
         height:auto; 
         overflow:visible;
-        border:3px solid orange;
+        border:3px solid green;
     }
-}  
+  }  
+  

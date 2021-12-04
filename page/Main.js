@@ -10,13 +10,13 @@ export default function Main() {
     })
     
     return (
-        <main className={`${styles.mainwrap}`}>
+        <main className={`${mainStyle.mainwrap}`}>
             <h1 className={styles.title}>
             Welcome to <a href="https://nextjs.org">James Dean.js!</a>
             </h1>
 
             <p className={styles.description}>
-              MB view 100 test commit 9
+              MB view 100 test commit 10
             <code className={styles.code}>pages/index.js</code>
             </p>
 
