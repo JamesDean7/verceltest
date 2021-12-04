@@ -16,7 +16,7 @@ export default function Main() {
             </h1>
 
             <p className={styles.description}>
-              MB view 100 test commit 7
+              MB view 100 test commit 8
             <code className={styles.code}>pages/index.js</code>
             </p>
 
