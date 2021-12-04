@@ -11,7 +11,7 @@ export default function Main() {
     })
     
     return (
-        <main className={`${styles.main} mainwrap`}>
+        <main className={`${styles.mainwrap} mainwrap`}>
             <h1 className={styles.title}>
             Welcome to <a href="https://nextjs.org">James Dean.js!</a>
             </h1>
