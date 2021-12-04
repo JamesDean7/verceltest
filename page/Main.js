@@ -7,17 +7,16 @@ export default function Main() {
     useEffect(()=>{
         let vh = window.innerHeight * 0.01; 
         document.documentElement.style.setProperty('--vh', `${vh}px`);
-        console.log(vh);
     })
     
     return (
-        <main className={`${styles.main} ${styles.mainwrap}`}>
+        <main className={`${styles.main} mainwrap`}>
             <h1 className={styles.title}>
             Welcome to <a href="https://nextjs.org">James Dean.js!</a>
             </h1>
 
             <p className={styles.description}>
-              MB view 100 test commit 6
+              MB view 100 test commit 7
             <code className={styles.code}>pages/index.js</code>
             </p>
 
